@@ -22,6 +22,18 @@
           اعرف المزيد
         </router-link>
       </div>
+      
+      <!-- Login Section -->
+      <div class="mt-8" data-aos="fade-up" data-aos-delay="600">
+        <p class="text-lg mb-4">هل لديك حساب؟ سجل دخولك الآن</p>
+        <a 
+          href="https://web.amyal.ly/" 
+          target="_blank"
+          class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 text-sm md:text-base"
+        >
+          تسجيل الدخول إلى حسابك
+        </a>
+      </div>
     </div>
   </section>
 </template>
