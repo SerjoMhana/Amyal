@@ -5,7 +5,7 @@
         <!-- Desktop Navigation - Reordered for RTL -->        
         <!-- Logo - Larger size and without text -->
         <div class="flex-shrink-0 flex items-center">
-          <img src="@/assets/logo-01-removebg-preview.png" alt="أميال Logo" class="h-40 w-40" />
+          <img src="@/assets/logo-01-removebg-preview.png" alt="أميال Logo" class="h-16 w-16 md:h-20 md:w-20" />
         </div>
         
         <nav class="hidden md:flex space-x-1 space-x-reverse">

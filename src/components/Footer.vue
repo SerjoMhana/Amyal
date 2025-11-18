@@ -1,10 +1,10 @@
 <template>
   <footer class="bg-white text-gray-700 border-t" dir="rtl">
     <div class="container mx-auto px-4 py-12">
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-24">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-24">
         <!-- Logo Column -->
         <div class="md:col-span-1 flex flex-col items-center md:items-start">
-          <img src="@/assets/logo-01-removebg-preview.png" alt="أميال Logo" class="h-40 w-40 object-contain" />
+          <img src="@/assets/logo-01-removebg-preview.png" alt="أميال Logo" class="h-16 w-16 md:h-20 md:w-20 object-contain" />
           
           <!-- Social Icons below logo -->
           <div class="flex items-center gap-3">
