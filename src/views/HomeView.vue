@@ -1,10 +1,12 @@
 <template>
   <div class="min-h-screen bg-gray-50">
-    <HeroSection />
-    <ServicesSection />
-    <AchievementsSection />
-    <ShipmentTrackingSection />
-    <PartnersSection />
+    <div class="container mx-auto">
+      <HeroSection />
+      <ServicesSection />
+      <AchievementsSection />
+      <ShipmentTrackingSection />
+      <PartnersSection />
+    </div>
   </div>
 </template>
 

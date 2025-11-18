@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars(trim($_POST['message']));
 
     // 2. تحديد عناوين البريد (تأكد من صحة هذا العنوان)
-    $to = 'TEST@ahsibly.ly'; // بريدك الإلكتروني الذي يستقبل الرسائل
+    $to = 'info@amyal.ly'; // بريدك الإلكتروني الذي يستقبل الرسائل
 
     // 3. التحقق من البيانات
     if (empty($name) || empty($email) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
