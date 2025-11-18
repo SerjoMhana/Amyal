@@ -1,0 +1,7 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# Redirect requests to non-existent files to index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /index.html [L,QSA]

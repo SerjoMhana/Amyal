@@ -26,8 +26,8 @@ AOS.init({
   mirror: false,
   offset: 120,
   delay: 0,
-  easing: 'ease-out-back',
-  disable: 'mobile'
+  easing: 'ease-out-back'
+  // Removed disable: 'mobile' to ensure animations work on mobile
 })
 
 app.mount('#app')
