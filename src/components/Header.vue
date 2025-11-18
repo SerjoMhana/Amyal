@@ -3,11 +3,12 @@
     <div class="container mx-auto px-4">
       <div class="flex justify-between items-center h-20">
         <!-- Desktop Navigation - Reordered for RTL -->        
-        <!-- Logo - Larger size and without text -->
+        <!-- Logo on the Left -->
         <div class="flex-shrink-0 flex items-center">
           <img src="@/assets/logo-01-removebg-preview.png" alt="أميال Logo" class="h-16 w-16 md:h-20 md:w-20" />
         </div>
         
+        <!-- Navigation Links in the Center -->
         <nav class="hidden md:flex space-x-1 space-x-reverse">
           <router-link 
             to="/" 
@@ -82,24 +83,26 @@
           
           <router-link 
             to="/contact-us" 
-            class="px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300"
+            class="ml-8 px-4 py-2 rounded-lg text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-all duration-300"
             active-class="text-blue-600 bg-blue-50"
           >
             تواصل معنا
           </router-link>
-          
-          <!-- Professional Login Button -->
+        </nav>
+        
+        <!-- Login Button on the Right -->
+        <div class="hidden md:block">
           <a 
             href="https://web.amyal.ly/" 
             target="_blank"
-            class="px-5 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 transition-all duration-300 flex items-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            class="px-4 py-2 rounded-lg text-sm font-semibold text-white bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 transition-all duration-300 flex items-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
           >
             <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path>
             </svg>
             تسجيل الدخول
           </a>
-        </nav>
+        </div>
         
         <!-- Mobile menu button -->
         <div class="md:hidden flex items-center">
