@@ -3,7 +3,7 @@
     <div class="px-0">
       <div class="flex flex-col lg:flex-row min-h-screen">
         <!-- Image on the left - flush with left, top, and bottom -->
-        <div class="lg:w-1/2 -ml-4 -mt-0 -mb-0" data-aos="fade-right" data-aos-delay="100">
+        <div class="lg:w-1/2" data-aos="fade-right" data-aos-delay="100">
           <img 
             src="@/assets/shipment-tracking.jpg" 
             alt="Shipment Tracking" 

@@ -1,7 +1,7 @@
 <template>
   <section class="relative py-16 md:py-24 bg-cover bg-center" :style="{ backgroundImage: 'url(' + heroImage + ')' }" data-aos="fade-down">
     <div class="absolute inset-0 bg-black bg-opacity-50" data-aos="fade-in"></div>
-    <div class="container mx-auto px-4 relative z-10 text-center text-white" data-aos="zoom-in">
+    <div class="px-0 relative z-10 text-center text-white" data-aos="zoom-in">
       <h1 class="text-3xl md:text-5xl font-bold mb-4 md:mb-6" data-aos="fade-up" data-aos-delay="100">أميال للشحن والتوصيل</h1>
       <p class="text-lg md:text-xl mb-6 md:mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
         حلول شحن موثوقة وسريعة تصل إلى جميع أنحاء ليبيا والعالم

@@ -1,6 +1,6 @@
 <template>
   <section class="py-20 bg-gradient-to-r from-blue-600 to-indigo-700 text-white" data-aos="fade-up">
-    <div class="container mx-auto px-4">
+    <div class="px-0">
       <div class="max-w-4xl mx-auto text-center">
         <div class="inline-block p-4 bg-white bg-opacity-20 rounded-full mb-6" data-aos="zoom-in" data-aos-delay="100">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -3,13 +3,13 @@
     <!-- Animated delivery elements with different shapes -->
     <div class="absolute top-20 -left-10 w-24 h-24 rounded-full bg-blue-200 opacity-20 animate-ping" data-aos="fade-in" data-aos-delay="100"></div>
     
-    <div class="absolute bottom-32 -right-16 w-32 h-32 rounded-full bg-yellow-200 opacity-15 animate-bounce" data-aos="fade-in" data-aos-delay="200"></div>
+    <div class="absolute bottom-32 right-0 w-32 h-32 rounded-full bg-yellow-200 opacity-15 animate-bounce" data-aos="fade-in" data-aos-delay="200"></div>
     
     <div class="absolute top-1/2 left-10 w-16 h-16 bg-indigo-200 opacity-20 animate-pulse transform rotate-45" data-aos="fade-in" data-aos-delay="300"></div>
     
     <div class="absolute top-1/4 right-20 w-20 h-12 bg-green-200 opacity-20 animate-pulse rounded-lg" data-aos="fade-in" data-aos-delay="400"></div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="px-0 relative z-10">
       <div class="text-center mb-16" data-aos="fade-up" data-aos-delay="100">
         <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">خدمات أميال</h2>
         <p class="text-gray-600 max-w-2xl mx-auto">
